@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+var imjs = require('../lib/imjs');
+var cmd = require('../lib/commands');
+
+function timeStamp(){
+  return Date()
+    .toString()
+    .slice(0,24)
+    .replace(/:/g,'')
+    .replace(/ /g, '');
+}
+
+var program = require('commander');
+
+program
+  .version('0.0.1')
+  .option('-o, --output [dest]', 'Specify output destination');
+
+program
+  .command('resize')
+  .description('resize images')
+  .action(function(src, dest, w, h, q){
+    cmd.resize(src, dest, w, h, q);
+  });
+
+program.parse(process.argv);
