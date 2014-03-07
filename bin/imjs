@@ -20,8 +20,15 @@ program
 program
   .command('resize')
   .description('resize images')
-  .action(function(src, dest, w, h, q){
+  .action(function(src, dest, w, h, q) {
     cmd.resize(src, dest, w, h, q);
+  });
+
+program
+  .command('watermark')
+  .description('watermark images')
+  .action(function(src, dest, type ) {
+    cmd.watermark(src, dest, type);
   });
 
 program.parse(process.argv);
