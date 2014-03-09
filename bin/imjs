@@ -25,6 +25,13 @@ program
   });
 
 program
+  .command('resizein')
+  .description('output resized files in the specified directory')
+  .action(function(src, dest, w, h, q) {
+    imjs.resizeIn(src, dest, w, h, q);
+  });
+
+program
   .command('watermark')
   .description('watermark images')
   .action(function(src, dest, type ) {
