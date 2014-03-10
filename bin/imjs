@@ -2,15 +2,6 @@
 
 var imjs = require('../lib/imjs');
 var cmd = require('../lib/commands');
-
-function timeStamp(){
-  return Date()
-    .toString()
-    .slice(0,24)
-    .replace(/:/g,'')
-    .replace(/ /g, '');
-}
-
 var program = require('commander');
 
 program
