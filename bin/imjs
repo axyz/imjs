@@ -6,34 +6,38 @@ var program = require('commander');
 
 program
   .version('0.0.1')
-  .option('-o, --output [dest]', 'Specify output destination');
+  .option('-o, --output [dest]', 'Specify output destination')
+  .option('-w, --width [width]', 'specify output width', 3000)
+  .option('-h, --height [height]', 'specify output height', 2000)
+  .option('-q, --quality [0..100]', 'specify output compression level', 90)
+  .option('-t, --type [big|small]', 'specify watermark type', 'big')
 
 program
   .command('resize')
   .description('resize images')
-  .action(function(src, dest, w, h, q) {
-    cmd.resize(src, dest, w, h, q);
-  });
+  .action(function(src) {
+    cmd.resize(src, program.output, program.w, program.h, program.q);
+  })
 
 program
   .command('resizein')
   .description('output resized files in the specified folder')
-  .action(function(src, dest, w, h, q) {
-    imjs.resizeIn(src, dest, w, h, q);
-  });
+  .action(function(src) {
+    imjs.resizeIn(src, program.output, program.w, program.h, program.q);
+  })
 
 program
   .command('watermark')
   .description('watermark images')
-  .action(function(src, dest, type ) {
-    cmd.watermark(src, dest, type);
-  });
+  .action(function(src) {
+    cmd.watermark(src, program.output, program.type);
+  })
 
 program
   .command('watermarkin')
   .description('output watermarked files in the specified folder')
-  .action(function(src, dest, type) {
-    imjs.watermarkIn(src, dest, type);
+  .action(function(src) {
+    imjs.watermarkIn(src, program.output, program.type);
   })
 
 program.parse(process.argv);
