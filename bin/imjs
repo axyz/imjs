@@ -17,7 +17,7 @@ program
 
 program
   .command('resizein')
-  .description('output resized files in the specified directory')
+  .description('output resized files in the specified folder')
   .action(function(src, dest, w, h, q) {
     imjs.resizeIn(src, dest, w, h, q);
   });
@@ -28,5 +28,12 @@ program
   .action(function(src, dest, type ) {
     cmd.watermark(src, dest, type);
   });
+
+program
+  .command('watermarkin')
+  .description('output watermarked files in the specified folder')
+  .action(function(src, dest, type) {
+    imjs.watermarkIn(src, dest, type);
+  })
 
 program.parse(process.argv);
