@@ -16,14 +16,14 @@ program
   .command('resize')
   .description('resize images')
   .action(function(src) {
-    cmd.resize(src, program.output, program.w, program.h, program.q);
+    cmd.resize(src, program.output, program.width, program.height, program.quality);
   })
 
 program
   .command('resizein')
   .description('output resized files in the specified folder')
   .action(function(src) {
-    imjs.resizeIn(src, program.output, program.w, program.h, program.q);
+    imjs.resizeIn(src, program.output, program.width, program.height, program.quality);
   })
 
 program
