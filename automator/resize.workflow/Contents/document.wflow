@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:717.000000</string>
+				<string>690.000000:716.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -294,7 +294,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:613.000000</string>
+				<string>690.000000:612.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Italian.lproj/main.nib</string>
 			</dict>
@@ -404,7 +404,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:431.000000</string>
+				<string>690.000000:429.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -447,11 +447,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -516,7 +514,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:327.000000</string>
+				<string>690.000000:325.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -575,7 +573,7 @@
 					<string>IFS='x' read W H &lt;&lt;&lt;$1
 export PATH=/opt/ImageMagick/bin:$PATH
 export PATH=/usr/local/bin:$PATH
-imjs resizein $2 -o $1 -w $W -h $H
+imjs resizein "$2" -o $1 -w $W -h $H
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -689,7 +687,7 @@ imjs resizein $2 -o $1 -w $W -h $H
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:224.000000</string>
+				<string>690.000000:222.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Italian.lproj/main.nib</string>
 			</dict>
@@ -699,28 +697,28 @@ imjs resizein $2 -o $1 -w $W -h $H
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>162DC99D-CB9B-409B-B73D-B50C788CF05D</key>
+		<key>A192C955-AA98-4ECA-9CDF-A4D8D261127D</key>
 		<dict>
 			<key>from</key>
 			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
 			<key>to</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 		</dict>
-		<key>35F33C65-23C5-42C9-B422-169DD2CDD647</key>
+		<key>AFD1A1E4-A3B2-4112-9E71-21BA08452CB1</key>
 		<dict>
 			<key>from</key>
 			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
 			<key>to</key>
 			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
 		</dict>
-		<key>58ED459A-532B-45BC-860C-7671472A85CB</key>
+		<key>ED8EC25C-A629-40AA-8FE1-FD417FFD6476</key>
 		<dict>
 			<key>from</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 			<key>to</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
 		</dict>
-		<key>8023185C-5E0B-496F-87AF-FE310B581BEF</key>
+		<key>F6CB1323-5F26-487C-9C7A-DF95FE91523E</key>
 		<dict>
 			<key>from</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>

@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:717.000000</string>
+				<string>690.000000:716.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -156,11 +156,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -225,7 +223,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:613.000000</string>
+				<string>690.000000:612.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -283,7 +281,7 @@
 					<key>COMMAND_STRING</key>
 					<string>export PATH=/opt/ImageMagick/bin:$PATH
 export PATH=/usr/local/bin:$PATH
-imjs watermarkin $1 -o wm-small -t small
+imjs watermarkin "$1" -o wm-small -t small
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -397,7 +395,7 @@ imjs watermarkin $1 -o wm-small -t small
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:510.000000</string>
+				<string>690.000000:509.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Italian.lproj/main.nib</string>
 			</dict>
@@ -407,14 +405,14 @@ imjs watermarkin $1 -o wm-small -t small
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>35F33C65-23C5-42C9-B422-169DD2CDD647</key>
+		<key>69490BF7-0DA3-4BA8-A76F-2B83554E8926</key>
 		<dict>
 			<key>from</key>
 			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
 			<key>to</key>
 			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
 		</dict>
-		<key>7F858289-E9EB-477F-8A61-8178A3169A6C</key>
+		<key>B78392CB-B58A-48A4-A5BD-F6980EBA63E5</key>
 		<dict>
 			<key>from</key>
 			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
