@@ -1,6 +1,6 @@
 {
   "name": "imjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "imaging shortcuts",
   "main": "./lib/imjs",
   "bin": {
