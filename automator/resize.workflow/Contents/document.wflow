@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:716.000000</string>
+				<string>690.000000:799.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -294,7 +294,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:612.000000</string>
+				<string>690.000000:695.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Italian.lproj/main.nib</string>
 			</dict>
@@ -404,7 +404,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:429.000000</string>
+				<string>690.000000:513.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -514,7 +514,117 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:325.000000</string>
+				<string>690.000000:409.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>5DC44E7D-7E95-4578-B120-A5A9F6D6E6AC</string>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>Ottieni il valore della variabile</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>5DC44E7D-7E95-4578-B120-A5A9F6D6E6AC</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Get_Value_of_Variable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Get_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>DB396397-EC81-4478-B5D3-789087C6F6A8</string>
+				<key>Keywords</key>
+				<array>
+					<string>variabile</string>
+					<string>vincolo</string>
+					<string>input</string>
+					<string>output</string>
+					<string>memorizzazione</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>FF4B5ECE-9698-4399-892C-DC9E394BB151</string>
+				<key>UUID</key>
+				<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>690.000000:306.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -687,7 +797,7 @@ imjs resizein "$2" -o $1 -w $W -h $H
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:222.000000</string>
+				<string>690.000000:203.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Italian.lproj/main.nib</string>
 			</dict>
@@ -697,28 +807,35 @@ imjs resizein "$2" -o $1 -w $W -h $H
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>A192C955-AA98-4ECA-9CDF-A4D8D261127D</key>
+		<key>2E6080DC-CFDA-41B3-A4B2-A4C9EF614D01</key>
+		<dict>
+			<key>from</key>
+			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
+			<key>to</key>
+			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
+		</dict>
+		<key>5417551A-02DB-48F9-ADE1-80CA8AC04EB4</key>
 		<dict>
 			<key>from</key>
 			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
 			<key>to</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 		</dict>
-		<key>AFD1A1E4-A3B2-4112-9E71-21BA08452CB1</key>
+		<key>8289B1D7-BA74-4E01-AEA3-E06010BA503C</key>
 		<dict>
 			<key>from</key>
-			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
+			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
 			<key>to</key>
 			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
 		</dict>
-		<key>ED8EC25C-A629-40AA-8FE1-FD417FFD6476</key>
+		<key>846363D0-4BB3-4B8C-B0DC-85FF939034A8</key>
 		<dict>
 			<key>from</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 			<key>to</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
 		</dict>
-		<key>F6CB1323-5F26-487C-9C7A-DF95FE91523E</key>
+		<key>DB0FD512-C8EF-40D4-8311-17498B42057D</key>
 		<dict>
 			<key>from</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
