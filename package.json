@@ -13,9 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.1.0",
-    "gm": "^1.14.2",
-    "paralleljs": "^0.2.1",
     "glob": "^3.2.11",
-    "mkdirp": "^0.3.5"
+    "gm": "^1.14.2",
+    "mkdirp": "^0.3.5",
+    "paralleljs": "^0.2.1",
+    "web-resize": "0.0.6"
   }
 }

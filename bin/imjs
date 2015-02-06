@@ -10,34 +10,34 @@ program
   .option('-w, --width [width]', 'specify output width', 3000)
   .option('-h, --height [height]', 'specify output height', 2000)
   .option('-q, --quality [0..100]', 'specify output compression level', 90)
-  .option('-t, --type [big|small]', 'specify watermark type', 'big')
+  .option('-t, --type [big|small]', 'specify watermark type', 'big');
 
 program
   .command('resize')
   .description('resize images')
   .action(function(src) {
     cmd.resize(src, program.output, program.width, program.height, program.quality);
-  })
+  });
 
 program
-  .command('resizein')
+  .command('resizein [src]')
   .description('output resized files in the specified folder')
   .action(function(src) {
     imjs.resizeIn(src, program.output, program.width, program.height, program.quality);
-  })
+  });
 
 program
   .command('watermark')
   .description('watermark images')
   .action(function(src) {
     cmd.watermark(src, program.output, program.type);
-  })
+  });
 
 program
   .command('watermarkin')
   .description('output watermarked files in the specified folder')
   .action(function(src) {
     imjs.watermarkIn(src, program.output, program.type);
-  })
+  });
 
 program.parse(process.argv);
