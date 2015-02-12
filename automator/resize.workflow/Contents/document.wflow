@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>381</string>
+	<string>409</string>
 	<key>AMApplicationVersion</key>
-	<string>2.4</string>
+	<string>2.5</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -56,7 +56,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action</string>
 				<key>ActionName</key>
-				<string>Imposta valore di variabile</string>
+				<string>Set Value of Variable</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
@@ -80,11 +80,11 @@
 				<string>0A3D291F-58F1-4306-B352-9897FD09FA4F</string>
 				<key>Keywords</key>
 				<array>
-					<string>variabile</string>
-					<string>vincolo</string>
+					<string>variable</string>
+					<string>binding</string>
 					<string>input</string>
 					<string>output</string>
-					<string>memorizzazione</string>
+					<string>storage</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>84F5FE24-7A5B-4324-8F03-BEA2597DC2C2</string>
@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:799.000000</string>
+				<string>680.000000:176.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -151,7 +151,7 @@
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
-							<string>3000x2000</string>
+							<string>1920x1080</string>
 						</array>
 					</dict>
 					<key>defaultMessage</key>
@@ -176,7 +176,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Ask for Text.action</string>
 				<key>ActionName</key>
-				<string>Chiedi testo</string>
+				<string>Ask for Text</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>buttonAffirmative</key>
@@ -184,7 +184,7 @@
 					<key>buttonNegative</key>
 					<string>Annulla</string>
 					<key>defaultAnswer</key>
-					<string>3000x2000</string>
+					<string>1920x1080</string>
 					<key>defaultMessage</key>
 					<string>Inserire le dimensioni nel formato WIDTHxHEIGHT</string>
 					<key>requireInput</key>
@@ -210,9 +210,9 @@
 				<string>AE339A31-B5D9-4295-9702-82AB743A917B</string>
 				<key>Keywords</key>
 				<array>
-					<string>Testo</string>
-					<string>Chiedi</string>
-					<string>Richiesta</string>
+					<string>Text</string>
+					<string>Ask</string>
+					<string>Prompt</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>57E156A4-042B-44C8-96EE-327A7AB4B3AC</string>
@@ -267,7 +267,7 @@
 					<key>3</key>
 					<dict>
 						<key>default value</key>
-						<string>Annulla</string>
+						<string>Cancel</string>
 						<key>name</key>
 						<string>buttonNegative</string>
 						<key>required</key>
@@ -294,9 +294,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:695.000000</string>
+				<string>680.000000:358.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Italian.lproj/main.nib</string>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -347,7 +347,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action</string>
 				<key>ActionName</key>
-				<string>Imposta valore di variabile</string>
+				<string>Set Value of Variable</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
@@ -371,11 +371,11 @@
 				<string>97717520-EBEB-4703-AF5C-F368412E6C5F</string>
 				<key>Keywords</key>
 				<array>
-					<string>variabile</string>
-					<string>vincolo</string>
+					<string>variable</string>
+					<string>binding</string>
 					<string>input</string>
 					<string>output</string>
-					<string>memorizzazione</string>
+					<string>storage</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>59BA5455-A173-4429-A29D-380516C76A4F</string>
@@ -404,7 +404,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:513.000000</string>
+				<string>680.000000:464.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -457,7 +457,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action</string>
 				<key>ActionName</key>
-				<string>Ottieni il valore della variabile</string>
+				<string>Get Value of Variable</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
@@ -481,11 +481,11 @@
 				<string>A031B363-085D-4245-ABA2-D3BAF84F6705</string>
 				<key>Keywords</key>
 				<array>
-					<string>variabile</string>
-					<string>vincolo</string>
+					<string>variable</string>
+					<string>binding</string>
 					<string>input</string>
 					<string>output</string>
-					<string>memorizzazione</string>
+					<string>storage</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>540137B4-0D0F-4BD1-99E4-B8C2CB43071B</string>
@@ -514,7 +514,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:409.000000</string>
+				<string>680.000000:567.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -565,7 +565,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action</string>
 				<key>ActionName</key>
-				<string>Ottieni il valore della variabile</string>
+				<string>Get Value of Variable</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
@@ -589,11 +589,11 @@
 				<string>DB396397-EC81-4478-B5D3-789087C6F6A8</string>
 				<key>Keywords</key>
 				<array>
-					<string>variabile</string>
-					<string>vincolo</string>
+					<string>variable</string>
+					<string>binding</string>
 					<string>input</string>
 					<string>output</string>
-					<string>memorizzazione</string>
+					<string>storage</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>FF4B5ECE-9698-4399-892C-DC9E394BB151</string>
@@ -619,12 +619,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:306.000000</string>
+				<string>680.000000:670.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -676,7 +674,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Esegui script shell</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
@@ -714,8 +712,8 @@ imjs resizein "$2" -o $1 -w $W -h $H
 				<array>
 					<string>Shell</string>
 					<string>Script</string>
-					<string>Comando</string>
-					<string>Esegui</string>
+					<string>Command</string>
+					<string>Run</string>
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
@@ -797,9 +795,9 @@ imjs resizein "$2" -o $1 -w $W -h $H
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>690.000000:203.000000</string>
+				<string>680.000000:853.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Italian.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -807,40 +805,40 @@ imjs resizein "$2" -o $1 -w $W -h $H
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2E6080DC-CFDA-41B3-A4B2-A4C9EF614D01</key>
-		<dict>
-			<key>from</key>
-			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
-			<key>to</key>
-			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
-		</dict>
-		<key>5417551A-02DB-48F9-ADE1-80CA8AC04EB4</key>
-		<dict>
-			<key>from</key>
-			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
-			<key>to</key>
-			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
-		</dict>
-		<key>8289B1D7-BA74-4E01-AEA3-E06010BA503C</key>
+		<key>05536928-CFC8-4646-A0A7-244FEC1CB777</key>
 		<dict>
 			<key>from</key>
 			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
 			<key>to</key>
 			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
 		</dict>
-		<key>846363D0-4BB3-4B8C-B0DC-85FF939034A8</key>
+		<key>4903DB96-599E-45F4-9F1F-D93909B6D52E</key>
+		<dict>
+			<key>from</key>
+			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
+			<key>to</key>
+			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
+		</dict>
+		<key>4F9B2C89-17A4-4770-BB10-F4B5D941C30F</key>
+		<dict>
+			<key>from</key>
+			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
+			<key>to</key>
+			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
+		</dict>
+		<key>8E61EA33-6785-44C2-B352-2C23B491F2BF</key>
 		<dict>
 			<key>from</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 			<key>to</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
 		</dict>
-		<key>DB0FD512-C8EF-40D4-8311-17498B42057D</key>
+		<key>8FD05D27-EF5A-4A46-ACF2-EF6E2AD92128</key>
 		<dict>
 			<key>from</key>
-			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
+			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
 			<key>to</key>
-			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
+			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
 		</dict>
 	</dict>
 	<key>variables</key>
