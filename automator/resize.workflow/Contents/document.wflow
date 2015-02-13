@@ -678,7 +678,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>IFS='x' read W H &lt;&lt;&lt;$1
+					<string>read W H &lt;&lt;&lt;$(IFS="x"; echo $1)
 export PATH=/opt/ImageMagick/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 imjs resizein "$2" -o $1 -w $W -h $H
@@ -805,40 +805,40 @@ imjs resizein "$2" -o $1 -w $W -h $H
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>05536928-CFC8-4646-A0A7-244FEC1CB777</key>
-		<dict>
-			<key>from</key>
-			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
-			<key>to</key>
-			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
-		</dict>
-		<key>4903DB96-599E-45F4-9F1F-D93909B6D52E</key>
+		<key>05067084-E7EB-47BE-82A2-6D23469C25A8</key>
 		<dict>
 			<key>from</key>
 			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
 			<key>to</key>
 			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
 		</dict>
-		<key>4F9B2C89-17A4-4770-BB10-F4B5D941C30F</key>
+		<key>26D26986-70F7-4B34-9EE8-3648BFB4B04C</key>
 		<dict>
 			<key>from</key>
 			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
 			<key>to</key>
 			<string>8379FBD0-C5E4-47CD-B94C-AB360018EB41 - 8379FBD0-C5E4-47CD-B94C-AB360018EB41</string>
 		</dict>
-		<key>8E61EA33-6785-44C2-B352-2C23B491F2BF</key>
-		<dict>
-			<key>from</key>
-			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
-			<key>to</key>
-			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
-		</dict>
-		<key>8FD05D27-EF5A-4A46-ACF2-EF6E2AD92128</key>
+		<key>374F82E1-1C72-4372-93A6-5136971D3C3F</key>
 		<dict>
 			<key>from</key>
 			<string>F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22 - F9D4F05A-3DC3-4D41-8B6F-9DAD771C1B22</string>
 			<key>to</key>
 			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
+		</dict>
+		<key>8491B301-3CD8-4FAA-BF01-1E194862505C</key>
+		<dict>
+			<key>from</key>
+			<string>3F6FDA39-AAA3-4AC6-86AC-26023EC91317 - 3F6FDA39-AAA3-4AC6-86AC-26023EC91317</string>
+			<key>to</key>
+			<string>EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E - EC887EE0-C478-49D8-BC4D-2A5EA0C45E3E</string>
+		</dict>
+		<key>A3331940-42CE-4CF4-B97C-B5CC114F9442</key>
+		<dict>
+			<key>from</key>
+			<string>C9A27B13-28ED-4437-B4A8-3136AD9E7A60 - C9A27B13-28ED-4437-B4A8-3136AD9E7A60</string>
+			<key>to</key>
+			<string>D30C743D-E7A2-41BA-9279-E12C71E5C975 - D30C743D-E7A2-41BA-9279-E12C71E5C975</string>
 		</dict>
 	</dict>
 	<key>variables</key>
